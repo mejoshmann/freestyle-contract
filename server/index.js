@@ -6,7 +6,7 @@ const path = require("path");
 
 const app = express();
 app.use(cors({
-  origin: ["http://localhost:5173", "https://your-netlify-app.netlify.app"],
+  origin: true, // Temporarily allow all origins for testing
   credentials: true
 }));
 app.use(express.json());
