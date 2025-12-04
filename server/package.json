@@ -1,0 +1,11 @@
+{
+  "name": "freestyle-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "docx": "^9.5.1",
+    "express": "^5.2.1",
+    "pdf-lib": "^1.17.1"
+  }
+}
